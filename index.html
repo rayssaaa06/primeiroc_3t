@@ -1,71 +1,37 @@
-let tabuada = 4;
+! <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro E </title>
+<script src="estudo.js"></script>
+</head>
+<body>
+    valor: <input id="valor" type="text"><br>
+    Juros(Mensa): <input id="Juros" type="text "><br>
+    Nr. Meses: <input id="Meses" type="text"><br>
+    <button onclick="calcula()">Enviar </button>
 
-function escreva(){
-    document.write("<h1>Tabuada do " + tabuada + "</h1>");
-    document.write(tabuada + " x 1 = " + (tabuada*1)+"<br>");
-    document.write(tabuada + " x 2 = " + (tabuada*2)+"<br>");
-    document.write(tabuada + " x 3 = " + (tabuada*3)+"<br>");
-    document.write(tabuada + " x 4 = " + (tabuada*4)+"<br>");
-    document.write(tabuada + " x 5 = " + (tabuada*5)+"<br>");
-    document.write(tabuada + " x 6 = " + (tabuada*6)+"<br>");
-    document.write(tabuada + " x 7 = " + (tabuada*7)+"<br>");
-    document.write(tabuada + " x 8 = " + (tabuada*8)+"<br>");
-    document.write(tabuada + " x 9 = " + (tabuada*9)+"<br>");
-    document.write(tabuada + " x 10 = " + (tabuada*10)+"<br>");
-}
+    <br><br><br>
+    Nota 1: <input id="t1" type="text"><br>
+    Nota 2: <input id="t2" type="text"><br>
+    Nota 3: <input id="t3" type="text"><br>
+    <BUtton onclick="somaNota()">Somar Notas </BUtton><br>
+    <BUtton onclick="Media()">Media  </BUtton><br>
+    <BUtton onclick="NotaParaFechar()">Nota para fechar  </BUtton><br>
+    <span id= "resultado">0</span>
 
-function minhaTabuada(){
-    for(let i=1; i <= 10; i++){
-        document.write("Tabuada do " + i + "<br>");
-        for(let j = 1; j <= 10; j++){
-            document.write(i + " x " + j + " = " + (j*i)+"<br>");
-        }
-        document.write("<br>");
-    }
-}
-
-function quadrado(){
-    for(let i = 2; i <= 1000; i++){
-            document.write("O quadrado de " + i + " é " + (i*i) + "<br>");
-    }
-}
-function calcula(){
-    let val = document.getElementById("valor").value;
-    let j = document.getElementById("juros").value;
-    let t = document.getElementById("meses").value
-
-    let res = val * (1+(j/100));
-    
-    document.write("Resultado:  "+res);
-}
- function somaNota(){
-     let n1 = document.getElementById("t1").value;
-     let n3 = document.getElementById("t2").value;
-     let n3 = document.getElementById("t3").value;
-    let r = Number(n1) + Number(n2) + Number(n3)
-    document.getElementById('resultado').innerHTML = "Soma: " + r;
+    <br><br><br>
+    <span id="resultado">0,00</span>
+    Valor 1: <input id="v1"  type="text"><br>
+    Valor 2: <input id="v2"  type="text"><br>
+    Valor 3: <input id="v3"  type="text"><br>
+    <button onclick="media()">Calcular Média</button>
+    <button onclick="soma ()">Calcular Soma</button>
+    <button onclick="multiplicação ()">Calcular Multiplicação</button>
 
 
- }
- function media (){
-     let n1 = document.getElementById("v1").value;
-     let n2 = document.getElementById("v2").value;
-     let n3 = document.getElementById("v3").value;
-     let r = (Number(n1) + Number (n2) + Number (n3))/3;
-     document.getElementById("resultado").innerHTML = "Media " + r;
-
-
- function soma (){
-        let n1 = document.getElementById("v1").value;
-        let n2 = document.getElementById("v2").value;
-        let n3 = document.getElementById("v3").value;
-        let r = (Number(n1) + Number (n2) + Number (n3))/3;
-        document.getElementById("resultado").innerHTML = "Media " + r;
-
- function multiplicação (){
-            let n1 = document.getElementById("v1").value;
-            let n2 = document.getElementById("v2").value;
-            let n3 = document.getElementById("v3").value;
-            let r = (Number(n1) + Number (n2) + Number (n3))/3;
-            document.getElementById("resultado").innerHTML = "Media " + r;
+</body>
+</html>
 
