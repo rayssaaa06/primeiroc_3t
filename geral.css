@@ -1,33 +1,38 @@
-#calculadora  {
-    background: rgb(41, 188, 207);
+#calculadora {
+    background: rgb(72, 170, 154);
     width: 200px;
     padding: 20px;
     border-radius: 20px;
 }
- #calculadora input  {
-     background: rgb(205, 205, 255);
-     color: rgb(139, 204, 235);
-     border-radius: 20px;
-     padding: 08px;
-
- }
- #calculadora button {
-     background: rgb(100, 140, 226);
-     color: rgb(23, 23, 65);
-     margin-top: 5px;
-     padding: 5px;
- }
-#calculadora button:hover {
-    background: rgb(122, 122, 179);
-    color: rgb(142, 142, 168); 
-    cursor: pointer;   
+#calculadora input {
+    background: rgb(149, 255, 213);
+    color: rgb(61, 255, 223);
+    border-radius: 10px;
+    padding: 5px;
+}
+#calculadora button {
+    background: rgb(160, 178, 255);
+    color: rgb(9, 47, 116);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#calculadora button:hover{
+    background: rgb(29, 134, 182);
+    color: rgb(67, 138, 185);
+    cursor: pointer;
 }
 #spTotal {
-    background: rgb(92, 66, 66)
-    color: rgb(142, 142, 168)
-    border-radiuns: 10px;
+    background: rgb(60, 171, 214);
+    color: rgb(30, 43, 226);
+    border-radius: 10px;
     padding: 5px;
-    font - family: ""
-    
+    font-family: 'Courier New', Courier, monospace;
 }
-
+.spLista {
+    background: rgb(171, 141, 255);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(2, 51, 92);
+    width: 200px;
+}
