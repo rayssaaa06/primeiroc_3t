@@ -1,59 +1,53 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(165, 156, 156);
+    background: rgb(94, 173, 197);
 }
 
 #calculadora {
-    background: rgb(101, 161, 146);
+    background: rgb(101, 122, 240);
     width: 200px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(182, 106, 106);
+    box-shadow: 5px 5px rgb(59, 33, 94);
     position: absolute;
     left: 40%;
     top: 10%;
     text-align: center;
 }
 #calculadora input {
-    background: rgb(63, 73, 69);
-    color: rgb(238, 255, 0);
+    background: rgb(54, 102, 141);
+    color: rgb(77, 129, 136);
     border-radius: 10px;
     padding: 5px;
-    border: none; 
+    width: 100%;
 }
-#calculadora input:focus{
-    background-color: blue;
-    color: rgb(101, 161, 146);
-}
-    
-
 #calculadora button {
-    background: rgb(170, 57, 76);
-    color: white;
+    background: rgb(115, 213, 252);
+    color: rgba(63, 97, 190, 0.788);
     margin-top: 10px;
     padding: 5px;
     border-radius: 10px;
 }
 #calculadora button:hover{
-    background: rgb(126, 100, 104);
+    background: rgb(73, 157, 196);
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
 #spTotal {
     background: black;
-    color: yellow;
+    color: rgb(62, 255, 245);
     border-radius: 10px;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
 .spLista {
-    background: rgb(233, 213, 233);
+    background: rgb(115, 166, 214);
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
+    color: rgb(40, 142, 238);
     width: 200px;
-    border-color: tomato;
+    border-color: rgb(78, 101, 128);
     border-width: 2px;
     border-style: dotted;
     margin-top: 10px;
